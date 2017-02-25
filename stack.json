@@ -62,7 +62,7 @@
 							"#!/bin/bash -v\n",
 							"sudo su",
 							"cd /opt",
-                                                        "mkdir chef",
+                                                        "/bin/mkdir mkdir chef",
                                                         "cd chef",
 							"touch test",
                                                         "/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
